@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "POE 색약 보정",
+  "version": "1.0",
+  "description": "POE Ninja Passive Tree 색상을 적녹색약 사용자도 구분할 수 있도록 보정합니다.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://poe.ninja/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://poe.ninja/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
