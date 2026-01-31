@@ -1,35 +1,48 @@
-# 개인정보처리방침 (Privacy Policy)
+# Privacy Policy
 
-## POE 색약 보정 (POE Ninja Color Fixer)
+## POE Color Fixer (POE 색약 보정)
 
-**최종 수정일:** 2025년 1월 31일
-
----
-
-## 수집하는 정보
-
-본 확장 프로그램은 **개인정보를 수집하지 않습니다.**
-
-## 저장되는 데이터
-
-본 확장 프로그램은 다음 설정값을 **사용자의 브라우저 로컬 스토리지에만** 저장합니다:
-- 보정 활성화 여부
-- 색조 회전 값
-- 필터 모드 설정
-
-이 데이터는:
-- ✅ 사용자의 기기에만 저장됩니다
-- ✅ 외부 서버로 전송되지 않습니다
-- ✅ 제3자와 공유되지 않습니다
-
-## 권한 사용
-
-본 확장 프로그램은 `poe.ninja` 웹사이트에서만 작동하며, 해당 사이트의 색상을 조정하기 위한 목적으로만 사이트 접근 권한을 사용합니다.
-
-## 문의
-
-질문이 있으시면 GitHub Issues를 통해 문의해 주세요.
+**Last Updated:** January 31, 2025
 
 ---
 
-*This extension does not collect any personal information. All settings are stored locally on the user's device and are never transmitted to external servers.*
+## Data Collection
+
+**This extension does not collect any personal information.**
+
+## Data Storage
+
+This extension stores the following settings **only in the user's local browser storage**:
+- Color correction enabled/disabled status
+- Hue rotation value
+- Filter mode settings
+
+This data:
+- ✅ Is stored only on the user's device
+- ✅ Is never transmitted to external servers
+- ✅ Is never shared with third parties
+
+## Screenshot Feature
+
+This extension provides a screenshot feature to save passive tree configurations.
+
+- ✅ Screenshots are downloaded **only to the user's local device**
+- ✅ Screenshots are **never uploaded or transmitted to any server**
+- ✅ Screenshots are taken **only when the user explicitly clicks the button or presses the shortcut key**
+
+## Permission Usage
+
+| Permission | Purpose |
+|------------|---------|
+| `storage` | Used to save and persist the user's color correction preferences and toggle settings |
+| `activeTab` | Required to capture a screenshot of the current passive tree view on poe.ninja |
+| `downloads` | Used to save the captured screenshot as a PNG file to the user's local Downloads folder |
+| `host_permissions (poe.ninja)` | Required to access and modify the CSS/DOM elements of the passive tree to apply color adjustments for color-blind accessibility |
+
+## Contact
+
+If you have any questions, please contact us through GitHub Issues.
+
+---
+
+*This extension does not collect any personal information. All settings and screenshots are stored locally on the user's device and are never transmitted to external servers.*
